@@ -585,16 +585,16 @@ int main(){
     string st ="111111111111111111111111111111110000000000000000000000000000000011111111111111111111111111111111";
     //string s = "1111111111111111111111111111111111111111111111111111111111111111111";
     //string s = "0000000000000000000000000000000000000000000000000000000000000000000";
-    string sl = "11111111111111111111111111111111";
-    BitVector obj1(sl);
+
+    BitVector obj1(st);
     //BitVector obj2(s3);
     //cout << "Your string1 is " << obj1 << endl;
     //cout << "Your string2 is " << obj2 << endl;
-    BitVector ls = obj1 ;
+    //BitVector ls = obj1 << 4;
     //BitVector rs = obj1 >> 6;
     //cout << rs << endl << ls;
-    ls <<= 2;
-    cout << ls << endl;
-    //cout << rs << endl << rs.size();
+    //ls <<= 2;
+    cout << st << endl;
+    cout << rs << endl << rs.size();
 }
 */
